@@ -341,7 +341,7 @@ p{
 }
 @keyframes typewriter{
     from{width: 0;}
-    to{width: 11em;}
+    to{width: 12em;}
   }
   @keyframes blinkTextCursor{
     from{border-right-color: white;}
