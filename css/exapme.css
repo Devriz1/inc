@@ -2,9 +2,8 @@
 body {
     margin: 0;
     font-family: Montserrat, sans-serif;
-	  
+    line-height: 1.6;
     scroll-behavior: smooth;
-	
 }
 
 nav {
@@ -61,7 +60,6 @@ nav ul li a:hover {
     nav label.logo {
         font-size: 25px;
         line-height: 70px;
-	    padding: 0 20px;
     }
 
     nav ul {
@@ -163,8 +161,8 @@ nav ul li a:hover {
 
 .social-icons{
 	padding:5px;
-	
   text-align: center;
+  align-content: center;
 }
 .social-icons a{
 	color:#fff;
@@ -281,7 +279,7 @@ p{
 
 
 #section1{
-    height: 400vh;
+    height: 80vh;
     background-color:#9b9b9b;
     border-radius: none;
     width: auto;
@@ -290,7 +288,7 @@ p{
 }
 
 #section2{
-    height: 400px;
+    height: 90vh;
     background-color:#9b9b9b;
     border-radius: none;
     width:auto;
@@ -300,7 +298,7 @@ p{
 }
 
 #section3{
-    height:400px ;
+    height:80vh ;
     background-color:#9b9b9b; 
     border-radius: none;
     width: auto;
@@ -309,13 +307,13 @@ p{
     padding: 0%;
 }
 
-/*#section4{
+#section4{
     height: 650px;
     background-color:#9b9b9b;
     border-radius: none;
     width:auto;
     overflow: auto;
-}*/
+}
 
 /*#section5{
     height: none;
@@ -357,7 +355,6 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-	
 
 }
 
@@ -368,7 +365,6 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
